@@ -1,0 +1,13 @@
+names:
+- Berhelm
+- TidakBerhelm
+nc: 2
+roboflow:
+  license: CC BY 4.0
+  project: helmet-detection-f7ttv
+  url: https://universe.roboflow.com/kxdl-czadf/helmet-detection-f7ttv/dataset/1
+  version: 1
+  workspace: kxdl-czadf
+test: ../test/images
+train: Helmet-Detection-1/train/images
+val: Helmet-Detection-1/valid/images
