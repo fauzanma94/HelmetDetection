@@ -4,6 +4,15 @@ import av
 import supervision as sv
 import numpy as np
 from streamlit_webrtc import webrtc_streamer
+import streamlit as st
+
+
+st.set_page_config(
+    page_title="Object Detection using YOLOv8",  
+    page_icon="./images/camera.png",     
+    layout="wide",      
+    initial_sidebar_state="expanded"    
+)
 
 model = YOLO('D:\Perkuliahan\Semester 7\Deep Learning\webapp\webapp2\models\helmetdetection.pt')
 box_annotator = sv.BoxAnnotator(
